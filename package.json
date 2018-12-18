@@ -1,0 +1,40 @@
+{
+  "name": "styled-components-bem",
+  "version": "0.1.0",
+  "description": "BEM-style modifiers for styled components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joemaffei/styled-components-bem.git"
+  },
+  "keywords": [
+    "react",
+    "css",
+    "css-in-js",
+    "styled-components",
+    "bem",
+    "styling"
+  ],
+  "author": "Joe Maffei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joemaffei/styled-components-bem/issues"
+  },
+  "homepage": "https://github.com/joemaffei/styled-components-bem#readme",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "styled-components": "^4.1.3"
+  }
+}
