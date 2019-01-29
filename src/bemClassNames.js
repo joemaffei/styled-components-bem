@@ -6,9 +6,7 @@ const bemClassNames = modifiers => componentOrProps => {
 	const id = getStyledComponentId(componentOrProps);
 	if (!id) return '';
 
-	const mods = Object.keys(modifiers);
-
-	const classObject = mods.reduce(
+	const classObject = Object.keys(modifiers).reduce(
 		(result, mod) => ({
 			...result,
 			[`${id}_${mod}`]: componentOrProps[mod]

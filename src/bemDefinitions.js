@@ -6,9 +6,7 @@ const bemDefinitions = modifiers => props => {
 	const id = getStyledComponentId(props);
 	if (!id) return '';
 
-	const mods = Object.keys(modifiers);
-
-	const definitions = mods.reduce(
+	const definitions = Object.keys(modifiers).reduce(
     (result, mod) =>
       `${result}&.${id}_${mod}{${
 				isFunction(modifiers[mod])
