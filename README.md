@@ -4,7 +4,8 @@ BEM-style modifiers for styled-components.
 ## Motivation
 
 This library was inspired by [styled-components-modifiers](https://github.com/Decisiv/styled-components-modifiers), with
-a few enhancements that are best explained through examples:
+a few enhancements that are best explained through examples. See this [CodeSandbox](https://codesandbox.io/s/p9k43xn320)
+for a more interactive example.
 
 ## Example 1: Using only styled-components
 
