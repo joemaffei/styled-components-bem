@@ -9,7 +9,7 @@ const bemClassNames = modifiers => componentOrProps => {
 	const classObject = Object.keys(modifiers).reduce(
 		(result, mod) => ({
 			...result,
-			[`${id}_${mod}`]: componentOrProps[mod]
+			[`${id}-${mod}`]: componentOrProps[mod]
 		}),
 		{}
 	);

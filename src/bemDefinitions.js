@@ -8,7 +8,7 @@ const bemDefinitions = modifiers => props => {
 
 	const definitions = Object.keys(modifiers).reduce(
     (result, mod) =>
-      `${result}&.${id}_${mod}{${
+      `${result}&.${id}-${mod}{${
 				isFunction(modifiers[mod])
 					? modifiers[mod](props)
 					: modifiers[mod]
