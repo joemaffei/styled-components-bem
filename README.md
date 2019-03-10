@@ -93,14 +93,14 @@ const modifiers = {
   size: ({ size }) => `font-size:${size}px` // modifiers have access to props!
 };
 
-const Test = styled.div.attrs(props => ({
+const Sample = styled.div.attrs(props => ({
   className: bemClassNames(modifiers)(props)
 }))`
   font-family: sans-serif;
   ${bemDefinitions(modifiers)}
 `;
 
-export default Test;
+export default Sample;
 ```
 
 **Pros:**
