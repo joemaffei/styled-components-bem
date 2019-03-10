@@ -3,9 +3,9 @@ import bemDefinitions from './bemDefinitions';
 import getStyledComponentId from './getStyledComponentId';
 
 const styledComponentsBem = {
-	bemClassNames,
-	bemDefinitions,
-	getStyledComponentId
+  bemClassNames,
+  bemDefinitions,
+  getStyledComponentId
 };
 
 export default styledComponentsBem;
