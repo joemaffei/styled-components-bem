@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import getStyledComponentId from '../getStyledComponentId';
+import { getStyledComponentId } from '../index';
 
 describe('getStyledComponentId', () => {
   const mockProps = {
