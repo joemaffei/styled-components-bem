@@ -25,14 +25,13 @@
   },
   "homepage": "https://github.com/joemaffei/styled-components-bem#readme",
   "dependencies": {
-    "classnames": "^2.2.6",
-    "lodash": "^4.17.11"
+    "classnames": "^2.2.6"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
-    "babel-jest": "^23.6.0",
+    "babel-jest": "^24.3.1",
     "babel-preset-env": "^1.7.0",
-    "jest": "^23.6.0",
+    "jest": "^24.3.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "styled-components": "^4.1.3"
