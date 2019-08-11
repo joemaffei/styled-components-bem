@@ -145,17 +145,17 @@ These classNames may be ugly, but they are much more like textbook BEM.
 
 ```html
 <div>
-  <div class="sc-cMljjf cMljjf-red dDMpDn">red</div>
-  <div class="sc-cMljjf cMljjf-large dDMpDn">large</div>
-  <div class="sc-cMljjf cMljjf-spaced dDMpDn">spaced</div>
-  <div class="sc-cMljjf cMljjf-italic dDMpDn">italic</div>
-  <div class="sc-cMljjf cMljjf-red cMljjf-large dDMpDn">red large</div>
-  <div class="sc-cMljjf cMljjf-red cMljjf-large cMljjf-italic dDMpDn">red large italic</div>
-  <div class="sc-cMljjf cMljjf-red cMljjf-spaced dDMpDn">red spaced</div>
-  <div class="sc-cMljjf cMljjf-red cMljjf-spaced cMljjf-italic dDMpDn">red spaced italic</div>
-  <div class="sc-cMljjf cMljjf-large cMljjf-spaced dDMpDn">large spaced</div>
-  <div class="sc-cMljjf cMljjf-large cMljjf-spaced cMljjf-italic dDMpDn">large spaced italic</div>
-  <div class="sc-cMljjf cMljjf-size fdLbeA" size="80">font-size 80</div>
-  <div class="sc-cMljjf cMljjf-size eANhzL" size="40">font-size 40</div>
+  <div class="sc-cMljjf sc-cMljjf-red dDMpDn">red</div>
+  <div class="sc-cMljjf sc-cMljjf-large dDMpDn">large</div>
+  <div class="sc-cMljjf sc-cMljjf-spaced dDMpDn">spaced</div>
+  <div class="sc-cMljjf sc-cMljjf-italic dDMpDn">italic</div>
+  <div class="sc-cMljjf sc-cMljjf-red sc-cMljjf-large dDMpDn">red large</div>
+  <div class="sc-cMljjf sc-cMljjf-red sc-cMljjf-large sc-cMljjf-italic dDMpDn">red large italic</div>
+  <div class="sc-cMljjf sc-cMljjf-red sc-cMljjf-spaced dDMpDn">red spaced</div>
+  <div class="sc-cMljjf sc-cMljjf-red sc-cMljjf-spaced sc-cMljjf-italic dDMpDn">red spaced italic</div>
+  <div class="sc-cMljjf sc-cMljjf-large sc-cMljjf-spaced dDMpDn">large spaced</div>
+  <div class="sc-cMljjf sc-cMljjf-large sc-cMljjf-spaced sc-cMljjf-italic dDMpDn">large spaced italic</div>
+  <div class="sc-cMljjf sc-cMljjf-size fdLbeA" size="80">font-size 80</div>
+  <div class="sc-cMljjf sc-cMljjf-size eANhzL" size="40">font-size 40</div>
 </div>
 ```
