@@ -10,7 +10,7 @@ describe('getStyledComponentId', () => {
   const Div = styled.div``;
   const renderedDiv = Div.render();
   const divProps = renderedDiv.props;
-  const expectedId = divProps.forwardedComponent.styledComponentId.substr(3);
+  const expectedId = divProps.forwardedComponent.styledComponentId;
 
   test('returns undefined when called with no arguments', () => {
     expect(getStyledComponentId()).toBeUndefined;
@@ -21,7 +21,7 @@ describe('getStyledComponentId', () => {
   });
 
   test('returns the correct id when called with a valid argument', () => {
-    const expectedResult = mockProps.forwardedComponent.styledComponentId.substr(3);
+    const expectedResult = mockProps.forwardedComponent.styledComponentId;
     expect(getStyledComponentId(mockProps)).toBe(expectedResult);
   });
 
